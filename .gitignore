@@ -1,0 +1,13 @@
+# Large, re-downloadable
+data/structures/*.pdb
+data/structures/*.cif
+
+# Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
