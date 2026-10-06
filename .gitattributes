@@ -1,0 +1,4 @@
+# Normalise line endings so Windows/Linux edits don't show as changes.
+* text=auto eol=lf
+*.png binary
+*.pdb binary
