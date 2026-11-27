@@ -138,7 +138,6 @@ sequences.
 data/sequences/     human (mature) and mouse (precursor) EGFR
 data/structures/    6ARU chain A sequence; PDB file downloaded separately
 analysis/           every script that produces a number in this README
-designs/            candidate sequences — only ones actually generated
 docs/               methods write-up
 figures/            output figures
 ```
@@ -160,17 +159,19 @@ python analysis/02_single_site_contacts.py   # one site vs the Fab
 python analysis/03_scan_variant_contacts.py  # all 21 variants vs interface
 python analysis/04_epitope_conservation.py   # epitope definition + conservation
 python analysis/05_make_figure.py            # figures/domain3_epitope_map.png
+python analysis/06_acidic_residues.py        # acidic-residue distribution
+python analysis/07_robustness_checks.py      # sensitivity of the contact cutoff
 ```
 
-Scripts 00–04 use only the Python standard library. Script 05 needs
-matplotlib.
+Scripts 00–04, 06 and 07 use only the Python standard library. Script 05 needs
+matplotlib (`pip install -r requirements.txt`).
 
 ---
 
 ## Rules this repository follows
 
-1. **No invented sequences.** Anything in `designs/` came out of a logged
-   model run.
+1. **No invented sequences.** This repository is target analysis only: it
+   contains no candidate designs, and none are claimed.
 2. **No unrun numbers.** Every figure in this README has a script above it
    that produces it.
 3. **Sources are verified, not assumed.** Offsets, construct differences
