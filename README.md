@@ -192,6 +192,6 @@ matplotlib (`pip install -r requirements.txt`).
 
 ## Author
 
-Final-year pharmaceutical science undergraduate, TU Dublin.
+Pharmaceutical science undergraduate.
 Working on computational protein design, in public.
 X: [@wongyong_fan](https://x.com/wongyong_fan)
